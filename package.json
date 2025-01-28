@@ -1,0 +1,19 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon notes-app-back-end2/server.js",
+    "notes": "nodemon notes-app-back-end/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "nanoid": "^3.3.8",
+    "nodemon": "^3.1.9"
+  }
+}
