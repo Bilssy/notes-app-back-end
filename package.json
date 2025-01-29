@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon notes-app-back-end2/server.js",
-    "notes": "nodemon notes-app-back-end/src/server.js"
+    "start:dev": "nodemon notes-app-back-end/src/server.js",
+    "start:prod": "NODE_ENV=production node notes-app-back-end/src/server.js"
   },
   "keywords": [],
   "author": "",
